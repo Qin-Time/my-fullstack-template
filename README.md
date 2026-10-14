@@ -12,13 +12,9 @@ npm run install:all
 
 # 2. 配置环境变量
 cp server/.env.example server/.env
-cp web/.env.development.example web/.env.development
-# 编辑 .env 填入数据库连接等
+cp web/.env.example web/.env.development
 
-# 3. 初始化数据库
-cd server && npx prisma migrate dev
-
-# 4. 启动开发环境（前后端同时）
+# 3. 启动开发环境（前后端同时）
 npm run dev
 ```
 
