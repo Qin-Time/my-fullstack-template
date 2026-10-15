@@ -8,6 +8,7 @@
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "lint": "eslint src/",
+    "clean": "npx rimraf node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
